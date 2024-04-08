@@ -1,2 +1,0 @@
-# Ufopeli-NO
-Valmistautumista varten
