@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 271
+  controlID: 25788
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 187
+  controlID: 25670
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 211
+  controlID: 25716
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -784,9 +784,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -29.597515, y: 339.8519, z: -6.052425}
+    m_Target: {x: 92.48454, y: 576.2477, z: -0.3203423}
     speed: 2
-    m_Value: {x: 12.006783, y: 353.16248, z: -5.841033}
+    m_Value: {x: 92.48454, y: 576.2477, z: -0.3203423}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -836,9 +836,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 490.89423
+    m_Target: 594.5428
     speed: 2
-    m_Value: 469.75525
+    m_Value: 594.5428
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -969,7 +969,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 52584
+  m_LastSelectedObjectID: 40212
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1007,9 +1007,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 44630000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 08fbffffbe61000002620000
+      m_SelectedIDs: 149d0000
+      m_LastClickedID: 40212
+      m_ExpandedIDs: 5284ffff6287fffffe87ffffd8a6ffff1afbffff5c61000012620000286200006c620000a8890000168a0000668a0000c68a0000bc9c00009c9d0000e09d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1077,8 +1077,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/kuvat_ufopeli
+    m_Folders: []
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1087,15 +1086,15 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\s2101042\OneDrive - Business College Helsinki\Tiedostot\Unity-kansio\Ufopeli
-    NO
+  m_LastProjectPath: "C:\\Users\\s2101042\\OneDrive - Business College Helsinki\\Ty\xF6p\xF6yt\xE4\\Ufopeli
+    git\\Ufopeli-NO"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ac370000
     m_LastClickedID: 14252
-    m_ExpandedIDs: ffffffff00000000de620000e0620000e2620000e4620000e6620000e8620000ea620000ec620000
+    m_ExpandedIDs: ffffffff000000000e63000010630000126300001463000016630000186300001a6300001c630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1120,10 +1119,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 348.49976}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000de620000e0620000e2620000e4620000e6620000e8620000ea620000ec620000
+    m_ExpandedIDs: ffffffff000000000e63000010630000126300001463000016630000186300001a6300001c630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1220,7 +1219,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 689.6001
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
