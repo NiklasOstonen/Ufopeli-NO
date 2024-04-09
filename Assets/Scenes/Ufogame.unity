@@ -241,6 +241,7 @@ GameObject:
   - component: {fileID: 154893319}
   - component: {fileID: 154893318}
   - component: {fileID: 154893317}
+  - component: {fileID: 154893320}
   m_Layer: 0
   m_Name: Enemy (5)
   m_TagString: Enemy
@@ -387,6 +388,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &154893320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154893315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9454f7b0f1dec4e81eeeaa8fa517bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentRotation: {x: 0, y: 0, z: 0}
+  anglesToRotate: {x: 0, y: 0, z: 90}
 --- !u!1 &176227022
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,6 +414,7 @@ GameObject:
   - component: {fileID: 176227026}
   - component: {fileID: 176227025}
   - component: {fileID: 176227024}
+  - component: {fileID: 176227027}
   m_Layer: 0
   m_Name: Enemy (6)
   m_TagString: Enemy
@@ -545,6 +561,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &176227027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176227022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9454f7b0f1dec4e81eeeaa8fa517bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentRotation: {x: 0, y: 0, z: 0}
+  anglesToRotate: {x: 0, y: 0, z: 90}
 --- !u!1 &235397873
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,6 +855,7 @@ GameObject:
   - component: {fileID: 281917576}
   - component: {fileID: 281917575}
   - component: {fileID: 281917577}
+  - component: {fileID: 281917578}
   m_Layer: 0
   m_Name: Enemy (1)
   m_TagString: Enemy
@@ -971,6 +1002,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &281917578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281917572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9454f7b0f1dec4e81eeeaa8fa517bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentRotation: {x: 0, y: 0, z: 0}
+  anglesToRotate: {x: 0, y: 0, z: 90}
 --- !u!1 &282539336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1422,6 +1467,7 @@ GameObject:
   - component: {fileID: 399263975}
   - component: {fileID: 399263974}
   - component: {fileID: 399263973}
+  - component: {fileID: 399263976}
   m_Layer: 0
   m_Name: Enemy (2)
   m_TagString: Enemy
@@ -1568,6 +1614,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &399263976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399263971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9454f7b0f1dec4e81eeeaa8fa517bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentRotation: {x: 0, y: 0, z: 0}
+  anglesToRotate: {x: 0, y: 0, z: 90}
 --- !u!1 &458066325
 GameObject:
   m_ObjectHideFlags: 0
@@ -1580,6 +1640,7 @@ GameObject:
   - component: {fileID: 458066329}
   - component: {fileID: 458066328}
   - component: {fileID: 458066327}
+  - component: {fileID: 458066330}
   m_Layer: 0
   m_Name: Enemy (8)
   m_TagString: Enemy
@@ -1726,6 +1787,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &458066330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458066325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9454f7b0f1dec4e81eeeaa8fa517bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentRotation: {x: 0, y: 0, z: 0}
+  anglesToRotate: {x: 0, y: 0, z: 90}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2119,6 +2194,7 @@ GameObject:
   - component: {fileID: 592606558}
   - component: {fileID: 592606557}
   - component: {fileID: 592606556}
+  - component: {fileID: 592606559}
   m_Layer: 0
   m_Name: Enemy (7)
   m_TagString: Enemy
@@ -2265,6 +2341,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &592606559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592606554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9454f7b0f1dec4e81eeeaa8fa517bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentRotation: {x: 0, y: 0, z: 0}
+  anglesToRotate: {x: 0, y: 0, z: 90}
 --- !u!1 &614951570
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,6 +2367,7 @@ GameObject:
   - component: {fileID: 614951574}
   - component: {fileID: 614951573}
   - component: {fileID: 614951575}
+  - component: {fileID: 614951576}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -2423,6 +2514,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &614951576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614951570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9454f7b0f1dec4e81eeeaa8fa517bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentRotation: {x: 0, y: 0, z: 0}
+  anglesToRotate: {x: 0, y: 0, z: 90}
 --- !u!1 &626169095
 GameObject:
   m_ObjectHideFlags: 0
@@ -3781,6 +3886,7 @@ GameObject:
   - component: {fileID: 1361223267}
   - component: {fileID: 1361223266}
   - component: {fileID: 1361223265}
+  - component: {fileID: 1361223268}
   m_Layer: 0
   m_Name: Enemy (4)
   m_TagString: Enemy
@@ -3927,6 +4033,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1361223268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361223263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9454f7b0f1dec4e81eeeaa8fa517bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentRotation: {x: 0, y: 0, z: 0}
+  anglesToRotate: {x: 0, y: 0, z: 90}
 --- !u!1 &1438479963
 GameObject:
   m_ObjectHideFlags: 0
@@ -4029,6 +4149,7 @@ GameObject:
   - component: {fileID: 1553426016}
   - component: {fileID: 1553426015}
   - component: {fileID: 1553426014}
+  - component: {fileID: 1553426017}
   m_Layer: 0
   m_Name: Enemy (3)
   m_TagString: Enemy
@@ -4175,6 +4296,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1553426017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553426012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9454f7b0f1dec4e81eeeaa8fa517bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentRotation: {x: 0, y: 0, z: 0}
+  anglesToRotate: {x: 0, y: 0, z: 90}
 --- !u!1 &1607175755
 GameObject:
   m_ObjectHideFlags: 0
@@ -4187,6 +4322,7 @@ GameObject:
   - component: {fileID: 1607175759}
   - component: {fileID: 1607175758}
   - component: {fileID: 1607175757}
+  - component: {fileID: 1607175760}
   m_Layer: 0
   m_Name: Enemy (9)
   m_TagString: Enemy
@@ -4333,6 +4469,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1607175760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607175755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb9454f7b0f1dec4e81eeeaa8fa517bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentRotation: {x: 0, y: 0, z: 0}
+  anglesToRotate: {x: 0, y: 0, z: 90}
 --- !u!1 &1611203555
 GameObject:
   m_ObjectHideFlags: 0
