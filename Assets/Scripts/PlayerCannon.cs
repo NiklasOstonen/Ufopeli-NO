@@ -7,9 +7,6 @@ public class PlayerCannon : MonoBehaviour
     float mx;
     public float movementSpeed = 5f;
     Rigidbody2D rb;
-    [SerializeField] int currentHP;
-    [SerializeField] int maxHP;
-    [SerializeField] TextMeshProUGUI hpText;
     public EventHandler playerDied;
 
 
@@ -20,8 +17,7 @@ public class PlayerCannon : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-        currentHP = maxHP;
-        UpdateHpText();
+       
     }
 
     // Update is called once per frame
@@ -37,30 +33,6 @@ public class PlayerCannon : MonoBehaviour
         rb.velocity = movement;
     }
 
-    public void TakeDamage(int damage)
-    {
-        if (currentHP > 0)
-        {
-            currentHP -= damage;
-            UpdateHpText();
-            if (currentHP <= 0)
-            {
-                gameObject.SetActive(false);
-                if (playerDied != null)
-                {
-                    playerDied.Invoke(this, EventArgs.Empty);
-                }
-            }
-        }
-    }
-
-            void UpdateHpText()
-            {
-                if (hpText != null)
-                {
-                    hpText.text = $" {currentHP} / {maxHP}";
-                }
-            }
         enum PlayerState
     {
         Alive,
