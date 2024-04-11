@@ -141,8 +141,8 @@ public class WaveManager : MonoBehaviour
     {
         deadScreen.SetActive(true);
         UI.SetActive(false);
-        deadScoreText.text = score.score.ToString();
-        Debug.Log(score.score.ToString());
+       // deadScoreText.text = score.score.ToString();
+      //  Debug.Log(score.score.ToString());
 
     }
 
