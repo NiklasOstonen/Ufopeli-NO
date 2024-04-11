@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\EnemyHPController.cs" />
     <Compile Include="Assets\Scripts\PlayerCannon.cs" />
     <Compile Include="Assets\Scripts\Spin.cs" />
+    <Compile Include="Assets\Scripts\PlayerHP.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
