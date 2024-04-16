@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\ProjectileShoot.cs" />
     <Compile Include="Assets\Scripts\PointManager.cs" />
+    <Compile Include="Assets\Scripts\PlaySoundOnEnter.cs" />
     <Compile Include="Assets\Scripts\EnemyHPController.cs" />
     <Compile Include="Assets\Scripts\PlayerCannon.cs" />
     <Compile Include="Assets\Scripts\Spin.cs" />
