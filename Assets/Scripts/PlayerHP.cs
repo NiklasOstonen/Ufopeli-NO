@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,7 @@ using UnityEngine.UI;
 
 public class PlayerHP : MonoBehaviour
 {
+    public static event Action OnPlayerDeath;
     public int Healts = 4;
     public Image[] HealtsUI;
 
@@ -39,6 +41,7 @@ public class PlayerHP : MonoBehaviour
             if (Healts <= 0)
             {
                 Destroy(gameObject);
+                OnPlayerDeath?.Invoke();
             }
         }
     }

@@ -7,14 +7,24 @@ using UnityEngine.SceneManagement;
 
 public class GameOverScreen : MonoBehaviour
 {
+    public GameObject gameOverMenu;
 
-
-    public Text pointsText;
+    private void OnEnable()
+    {
+        PlayerHP.OnPlayerDeath += EnableGameOverMenu;
+    }
+    private void OnDisable()
+    {
+        PlayerHP.OnPlayerDeath -= EnableGameOverMenu;
+    }
+    public void EnableGameOverMenu()
+    {
+        gameOverMenu.SetActive(true);
+    }
 
     public void Setup(int score)
     {
         gameObject.SetActive(true);
-        pointsText.text = score.ToString() + " POINTS ";
     }
 
     public void RestartButton()
