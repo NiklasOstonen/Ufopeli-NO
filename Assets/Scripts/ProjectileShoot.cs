@@ -5,6 +5,8 @@ using UnityEngine;
 public class ProjectileShoot : MonoBehaviour
 {
     public GameObject projectilePrefab;
+    public AudioSource audioPlayerShoot;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +18,7 @@ public class ProjectileShoot : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
+            audioPlayerShoot.Play();
             Instantiate(projectilePrefab, transform.position, Quaternion.identity);
         }
     }

@@ -1,5 +1,4 @@
 using System;
-using TMPro;
 using UnityEngine;
 
 public class PlayerCannon : MonoBehaviour
@@ -17,7 +16,7 @@ public class PlayerCannon : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-       
+
     }
 
     // Update is called once per frame
@@ -33,12 +32,6 @@ public class PlayerCannon : MonoBehaviour
         rb.velocity = movement;
     }
 
-        enum PlayerState
-    {
-        Alive,
-        Pause,
-        Dead,
-    }
 }
 
 
