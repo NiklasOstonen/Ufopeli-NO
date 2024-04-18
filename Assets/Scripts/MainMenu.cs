@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 using UnityEngine.SceneManagement;
@@ -14,12 +12,8 @@ public class MainMenu : MonoBehaviour
         // Aloitetaan uusi peli
         SceneManager.LoadScene(startLevel);
     }
-
-    private void Update()
+    public void QuitGame()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Application.Quit();
-        }
+        Application.Quit();
     }
 }
