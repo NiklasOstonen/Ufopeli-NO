@@ -18,22 +18,24 @@ public class PlayerCannon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Mathf.Abs(Input.GetAxis("Horizontal")) > 0)
-        {
+        //if (Mathf.Abs(Input.GetAxis("Horizontal")) > 0)
+       // {
             float turnSpeed = speed * Time.deltaTime;
 
             //Connect turning rate to horizonal motion for smooth transition
             float rotate = Input.GetAxis("Horizontal") * turnSpeed;
 
             //Get current rotation
-            float currentRotation = gameObject.transform.rotation.z;
+            //float currentRotation = gameObject.transform.rotation.z;
 
             //Add current rotation to rotation rate to get new rotation
-            Quaternion rotation = Quaternion.Euler(0, 0, currentRotation + rotate);
+           // Quaternion rotation = Quaternion.Euler(0, 0, currentRotation + rotate);
+
+            transform.rotation = Quaternion.Euler(Vector3.forward * rotate);
 
             //Move object to new rotation
-            gameObject.transform.rotation = rotation;
-        }
+           // gameObject.transform.rotation = rotation;
+       // }
 
     }
 

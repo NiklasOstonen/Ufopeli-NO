@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\PlayerCannon.cs" />
     <Compile Include="Assets\Scripts\Spin.cs" />
     <Compile Include="Assets\Scripts\PlayerHP.cs" />
+    <Compile Include="Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\SoundCheck.cs" />
   </ItemGroup>
   <ItemGroup>
