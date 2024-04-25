@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\PlayerHP.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\ChangeSound.cs" />
+    <Compile Include="Assets\Scripts\WinGame.cs" />
     <Compile Include="Assets\Scripts\SoundCheck.cs" />
   </ItemGroup>
   <ItemGroup>

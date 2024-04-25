@@ -7,6 +7,7 @@ public class Rotate : MonoBehaviour
     Rigidbody2D rb;
     private float spin;
     public EventHandler playerDied;
+    public EventHandler playerWin;
 
     // Start is called before the first frame update
     void Start()
