@@ -19,9 +19,8 @@ public class WinGame : MonoBehaviour
         WinPanel.SetActive(true);
 
     }
-
-    public void Setup(int score)
+    public void QuitGame()
     {
-        gameObject.SetActive(true);
+        Application.Quit();
     }
 }
