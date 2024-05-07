@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PlaySoundOnCollision : MonoBehaviour
 {
-    public AudioSource myAudioSource;
-    public AudioClip myAudioClip;
+    //public AudioSource myAudioSource;
+    //public AudioClip myAudioClip;
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        myAudioSource.PlayOneShot(myAudioClip);
-    }
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+      //  myAudioSource.PlayOneShot(myAudioClip);
+    //}
 }
