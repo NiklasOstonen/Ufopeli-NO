@@ -13,6 +13,8 @@ public class Rotate : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
+        // Switch to 800 x 600 windowed
+        Screen.SetResolution(800, 600, true);
     }
 
     // Update is called once per frame

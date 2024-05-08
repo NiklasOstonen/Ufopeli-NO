@@ -24,7 +24,7 @@ public class PointManager : MonoBehaviour
         score += points;
         scoreText.text = "Score: " + score;
 
-        if (score == 200)
+        if (score == 600)
         {
             OnPlayerWin();
             Debug.Log("Player Win!");
